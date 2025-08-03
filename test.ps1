@@ -1,6 +1,6 @@
 # test download coast time and print the download speed
 $startTime = Get-Date
-Invoke-WebRequest "http://localhost:8088/github.com/oven-sh/bun/releases/download/bun-v1.2.19/bun-windows-x64.zip" -OutFile ".\test.zip"
+Invoke-WebRequest "https://ep.ifyo.me/github.com/oven-sh/bun/releases/download/bun-v1.2.19/bun-windows-x64.zip" -OutFile ".\test.zip"
 $endTime = Get-Date
 $duration = $endTime - $startTime
 Write-Host "Download completed in $duration seconds."
