@@ -1,0 +1,20 @@
+{
+  "name": "edgeproxy",
+  "version": "1.0.0",
+  "description": "A reverse proxy with EdgeOne Pages",
+  "scripts": {
+    "dev": "edgeone pages dev"
+  },
+  "keywords": [
+    "edgeone",
+    "pages",
+    "proxy",
+    "reverse-proxy"
+  ],
+  "author": "akirco",
+  "license": "MIT",
+  "packageManager": "pnpm@10.14.0",
+  "devDependencies": {
+    "edgeone": "^1.0.32"
+  }
+}
